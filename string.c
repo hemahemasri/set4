@@ -6,7 +6,7 @@ char s1[10],s2[10];
 int l1,l2;
 clrscr();
 printf("enter the s1,s2\n:");
-scanf("%d%d",&s1,&s2);
+scanf("%s%s",&s1,&s2);
 l1=strlen(s1);
 l2=strlen(s2);
 if(l1>l2)
