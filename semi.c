@@ -2,7 +2,11 @@
 #include<conio.h>
 void main()
 {
-if(printf("hellow world"))
+  char str[20];
+  clrscr();
+  printf("\n enter the string");
+  scanf("%s",str);
+if(printf("%s",str))
 {
 }
 getch();
