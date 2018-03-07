@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-int i,n;
+int k,a;
 clrscr();
 printf("\n enter the number");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+scanf("%d",&a);
+for(k=1;k<=n;k++)
 {
-i=n*2;
+k=a*2;
 }
-printf("\n the nearest greater multiple of 10 is=%d",i);
+printf("\n the nearest greater multiple of 10 is=%d",k);
 getch();
 }
