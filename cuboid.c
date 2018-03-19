@@ -3,6 +3,7 @@
 void main()
 {
 int s,w,h,l,j,g,n;
+clrscr();
 printf("enter the values");
 scanf("%d%d%d",&w,&h,&l);
 j=l*w;
