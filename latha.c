@@ -2,12 +2,17 @@
 #include<conio.h>
 void main()
 {
-int a,b,c,sum;
-printf("\n enter the values");
-scanf("%d%d%d",&a,&b,&c);
+int sum=0,n,i,a[20];
+printf("\n enter the number ");
+scanf("%d",&n);
+printf("\n enter the numbers");
 for(i=0;i<n;i++)
 {
-sum= a+b+c;
+scanf("%d",&a[i]);  
+}
+for(i=0;i<n;i++)
+{
+sum= sum+a[i];
 }
 printf("%d",sum);
 getch();
