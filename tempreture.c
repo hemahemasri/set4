@@ -2,11 +2,11 @@
 #include<conio.h>
 void main()
 {
-float c,k;
+int c,k;
 clrscr();
 printf("enter the celcius value");
-scanf("%f",&c);
+scanf("%d",&c);
 k=c+273.15;
-printf("%f",k);
+printf("%d",k);
 getch();
 }
