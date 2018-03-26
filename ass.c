@@ -2,17 +2,17 @@
 #include<conio.h>
 void main()
 {
-int a,temp,reverse=0,remainder;
+int n,temp,reverse=0,remainder;
 printf("\n enter the number");
-scanf("%d",&a);
-temp=a;
-while(a!=0)
+scanf("%d",&n);
+temp=n;
+while(n!=0)
 {
 remainder=n%10;
 reverse=reverse*10+remainder;
 n/=10;
 }
- printf("\n %d reverse is =d",reverse );
+ printf("\n  reverse is =%d",reverse );
  getch();
  }
  
